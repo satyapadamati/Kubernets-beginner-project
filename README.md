@@ -9,25 +9,6 @@ This project demonstrates a basic full-stack application deployed on a **Kuberne
 
 ---
 
-## 📁 Project Structure
-
-├── backend/
-│ ├── app.py
-│ ├── requirements.txt
-│ └── Dockerfile
-├── frontend/
-│ ├── index.html
-│ ├── nginx.conf
-│ └── Dockerfile
-├── k8s/
-│ ├── flask-deployment.yaml
-│ ├── flask-service.yaml
-│ ├── nginx-deployment.yaml
-│ └── nginx-service.yaml
-
-
----
-
 ## 🚀 Live Demo
 
 Once deployed, the application serves:

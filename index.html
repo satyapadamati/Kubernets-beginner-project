@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Welcome to the Nginx Frontend!</h1>
+    <p>Fetching data from backend...</p>
+    <div id="data"></div>
+    <script>
+        fetch('/api')
+            .then(response => response.json())
+            .then(data => document.getElementById('data').innerText = data.message);
+    </script>
+</body>
+</html>
